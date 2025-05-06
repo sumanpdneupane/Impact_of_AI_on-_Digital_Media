@@ -102,28 +102,6 @@ Based on the dataset from Kaggle about AI's impact on digital media, here are th
 - Revenue impact analysis
 - User engagement changes
 - Content production metrics
-
-6. Geographic Analysis (if location data exists)
-- Regional differences in AI adoption
-- Compare impacts across different markets
-
-7. Correlation Analysis
-- Relationships between AI adoption and business metrics
-- Identify which AI applications correlate most with success
-
-8. Visualization Opportunities
-- Time series charts for trends over years
-- Bar charts comparing sectors/technologies
-- Heatmaps for correlation analysis
-- Box plots for distribution of impact metrics
-
-9. Outlier Detection
-- Identify unusual cases (extremely high/low impact)
-- Examine potential data errors
-
-10. Predictive Potential
-- Assess whether the data could support predictive modeling
-- Identify gaps that would prevent forecasting
 ```
 
 # AI in Digital Media: Algorithms, Preprocessing & Evaluation Metrics
@@ -138,10 +116,6 @@ i. Linear Regression
 ii. Random Forest / XGBoost Regression
 - Handles non-linear relationships (e.g., AI impact on engagement).
 - Justification: Robust to outliers, captures feature importance.
-
-iii. ARIMA / Prophet (Time Series Forecasting)
-- Forecasts AI adoption trends (2020–2025).
-- Justification: Best for temporal data with seasonality.
 
 B. Classification (If Categories Exist)
 i. Logistic Regression / Decision Trees
@@ -167,10 +141,6 @@ i. Normalization (Min-Max / Z-Score)
 
 ii. One-Hot Encoding
 - Converts categorical variables (e.g., media sector) into numerical.
-
-C. Time-Series Processing
-i. Resampling (Yearly → Quarterly if needed)
-- Lag Features (for forecasting models like ARIMA).
 
 D. Outlier Removal
 i. IQR / Z-Score methods
@@ -201,13 +171,6 @@ i. Silhouette Score
 
 ii. Elbow Method (WCSS)
 - Helps choose optimal K in K-Means.
-
-D. Time-Series Forecasting
-i. Mean Squared Error (MSE)
-- Penalizes large errors more.
-
-ii. MAPE (Mean Absolute Percentage Error)
-- Easy to interpret in business terms.
 ```
 
 ## 4. Justification Summary
