@@ -2,7 +2,6 @@
 ```
 Analyzing the global impact of AI-generated content on public perception, media.
 https://www.kaggle.com/datasets/atharvasoundankar/impact-of-ai-on-digital-media-2020-2025
-https://www.kaggle.com/code/iseedeep/mission-exploring-the-impact-of-ai
 ```
 
 # Background
